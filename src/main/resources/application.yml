@@ -13,7 +13,12 @@ mybatis-plus:
     db-config:
       id-type: auto
   mapper-locations: classpath:mapper/project/*Mapper.xml
-  type-aliases-package: com.imooc.project.entity
+  type-aliases-package: com.hanqing.project.entity
+#logging:
+#  level:
+#    com.imooc.project.mapper: trace
 logging:
   level:
-    com.imooc.project.mapper: trace
+    com.hanqing.project.mapper : debug
+
+
